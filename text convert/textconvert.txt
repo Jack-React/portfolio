@@ -1,0 +1,4 @@
+- Managed a team of 4 using agile and scrum methodologies.
+- App functionalities include expandable free storage, tagging, OCR, facial and background recognition provided by the REST API to Google photos..
+- Ensured scale-able photo storage and access by storing it in Google Photos.
+- Built scale-able UX for displaying large family trees for the react-native package.
