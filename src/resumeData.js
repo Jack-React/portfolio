@@ -128,13 +128,13 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Shanghai Jiao Tong Calendar",
-        "description":"WeChat mini-app",
+        "description":"WeChat mini-app. Built using WXML,WXSS and JavaScript.",
         "imgurl":"images/portfolio/sjtulogo.png",
         "url": "https://github.com/jtv199/wechatcalender"
       },
       {
         "name":"Family3",
-        "description":"react-native app",
+        "description":"react-native app. Built Using REST api, react native and JavaScript. ",
         "imgurl":"images/portfolio/tree.png",
         "url": "https://github.com/Jack-React/Family3"
       }
