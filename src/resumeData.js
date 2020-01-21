@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://media-exp1.licdn.com/dms/image/C5603AQF8StHvuGY4_w/profile-displayphoto-shrink_200_200/0?e=1584576000&v=beta&t=IOkXDBfXvgIatskgN1nMoP-r160y2m8PTqgXCLzzoAo",
     "name": "Jack Peng",
     "role": "developer",
-    "linkedinId":"jack.peng@jackpeng.me",
+    "email":"jack.peng@jackpeng.me",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
