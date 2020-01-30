@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Card } from 'react-bootstrap';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -11,19 +12,22 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
+                <Card bg="primary" className="columns portfolio-item" text="black">
                     <a href={item.url}>
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
+                      <Card.Img src={`${item.imgurl}`} className="item-img" alt = "head"/>
+                      <a className="overlay" href={item.url}>
+                        <Card.ImgOverlay>
                         <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+
+                          <Card.Title>{item.name}</Card.Title>
+                          <Card.Text>{item.description}</Card.Text>
+
                         </div>
-                      </div>
+                        </Card.ImgOverlay>
+
+                      </a>
                     </a>
-                  </div>
-                </div>
+                </Card>
               )
             })
           }
